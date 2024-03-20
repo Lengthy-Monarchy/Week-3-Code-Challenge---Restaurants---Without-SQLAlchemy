@@ -46,7 +46,7 @@ class Customer:
         return cursor.fetchall()
 
     def full_name(self):
-        # Returns the full name of the customer, with the first name and the last name concatenated, Western style.
+        # Returns the full name of the customer, with the first name and the last name concatenated.
         return f"{self.first_name} {self.last_name}"
 
     def favorite_restaurant(self):
